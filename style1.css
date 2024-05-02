@@ -1,32 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
 
-html {
+html{
   scroll-behavior: smooth;
 }
 
-body {
-  font-family: 'Advent Pro', sans-serif;
-  padding: 0;
-  margin: 0;
+#texteIntro {
+  padding: 0px 20%;
 }
-ul {
-  margin: 0;
-  padding: 0;
-}
-li {
-  list-style-type: none;
-}
-h2 {
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 30px;
-  font-size: 2em;
-}
-a {
-  text-decoration: none;
-  color: black;
-}
-/* ******************* NAVBAR ******************* */
 nav {
   overflow: hidden;
   background-color: #FFFAE1;
@@ -44,15 +24,9 @@ header li a {
   text-align: center;
   padding: 18px 16px;
 }
-#logo {
-  font-family: 'Dancing Script', cursive;
-  font-weight: bold;
-  float: left;
-}
-/* **************** IMAGE PRINCIPALE ************* */
 #imagePrincipale {
   padding-top: 60px;
-  background: url(media/image-principale.JPG) no-repeat fixed 50% 50%;
+  background: url(media/afro.JPG) no-repeat fixed 50% 50%;
   background-size: cover;
   height: 799px;
 }
@@ -77,35 +51,27 @@ h3 {
   font-size: 3em;
   text-shadow: 1px 3px 2px black;
 }
-/* *************** PRESENTATION ********************** */
-#presentation {
-  background-color: #FFFAE1;
-  padding: 10px 0px 100px 0;
+ul {
+  margin: 0;
+  padding: 0;
 }
-#texteIntro {
-  padding: 0px 20%;
+li {
+  list-style-type: none;
 }
-#prestations {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 30px 10%;  
-}
-.imagesPrestations h4 {
-  font-family: 'Dancing Script', cursive;
+h2 {
+  text-transform: uppercase;
   text-align: center;
-  font-size: 1.8em;
-  margin: 15px;
-  font-weight: 300;
+  padding-top: 30px;
+  font-size: 2em;
 }
-.imagesPrestations img {
-  border-radius: 10px;
-  box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+a {
+  text-decoration: none;
+  color: black;
 }
-.imagesPrestations img:hover {
-  opacity: 0.5;
-  transform: scale(1.05);
-  transition: 0.6s ease-in-out;
+#logo {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  float: left;
 }
 /* **************** TOURISME ********************** */
 #tourisme {
@@ -116,14 +82,17 @@ h3 {
 #tourisme h2 {
   padding-top: 60px;
 }
-#ocean {
-  background: url(media/ocean.jpg);
+#lait {
+  background: url(media/lait.jpg); 
+  width:550;
+  height: 226;
+
 }
-#chateau {
-  background: url(media/chateau.JPG);
+#huile {
+  background: url(media/huile.JPG);
 }
-#phare {
-  background: url(media/phare.JPG);
+#champagne {
+  background: url(media/champagne.JPG);
 }
 #vignoble {
   background: url(media/vignes.jpg);
